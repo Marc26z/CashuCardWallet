@@ -28,6 +28,41 @@ Here is the result:
 https://cashu-passport-kp02.shakespeare.to/
 
 
+MKStack
+Assistant ($0.264 • claude-sonnet-4)
+✅ Successfully Removed NIP-06 Functionality
+I have successfully removed the NIP-06 portion of the Cashu Cards client. Here's what was changed:
+
+🗑️ Removed Components:
+Seed phrase generation: No more BIP39 mnemonic generation
+Key derivation: Removed BIP32 hierarchical deterministic key derivation
+Backup flow: Eliminated the seed phrase backup and confirmation steps
+Import functionality: Removed ability to import existing seed phrases
+🔧 Updated Functionality:
+Simplified setup: Users now go directly from warning to mint selection
+Random key generation: Cashu wallet keys are now generated using crypto.getRandomValues()
+Existing Nostr identity: Users must log in with existing Nostr accounts (browser extensions, etc.)
+Streamlined UX: Reduced setup steps from 4 to 2 (warning → mint selection)
+📦 Dependencies Removed:
+bip39 - BIP39 mnemonic phrase library
+@scure/bip32 - BIP32 hierarchical deterministic keys
+@types/bip39 - TypeScript definitions
+📝 Documentation Updates:
+README.md: Updated to reflect NIP-07 browser extension integration instead of NIP-06
+NIP.md: Changed from NIP-06 to NIP-07 implementation details
+Setup instructions: Simplified to reflect new flow
+Security considerations: Updated to focus on existing Nostr key management
+🎯 Current Flow:
+User logs in with existing Nostr identity (browser extension or keys)
+Educational warning about Cashu risks and experimental nature
+Mint selection from reputable educational mints
+Wallet creation with randomly generated Cashu keys
+Ready to use educational Cashu wallet
+The application now focuses on integrating with existing Nostr identities rather than creating new ones, making it simpler and more aligned with established Nostr ecosystem practices. Users can still enjoy all the educational Cashu functionality while using their existing, secure Nostr key management solutions.
+
+
+
+
 
 
 
