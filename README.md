@@ -34,4 +34,5 @@ https://cashu-passport-kp02.shakespeare.to/
 ## Help Wanted
 
 I've been working on simmilar cards for about three years as of block 909,312.
-Special thanks to BitPopArt helped design some cartoon characters.
+
+**Special thanks to [BitPopArt](https://primal.net/p/nprofile1qqsy8w40ps5wdna3jkchacyrux0t8f90m7k9fkdkhtchqfcw6xf7xnqjrwfkf) helped design some cartoon characters.**
